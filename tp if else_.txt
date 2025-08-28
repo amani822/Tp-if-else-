@@ -1,0 +1,10 @@
+userName=input("enter your user name: ")
+password=input("enter your password: ")
+if userName=="admin" and password=="password123":
+    print("Login successful")
+elif userName!= "admin" and password== "password123":
+    print("Error: invalid username ")
+elif userName=="admin" and password!="password123":
+    print("Error: invalid password")
+else:
+    print("Error:ivalid username and password")
